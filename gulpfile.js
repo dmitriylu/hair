@@ -41,7 +41,7 @@ const paths = {
 
 // Clean Assets
 function clean () {
-    return del('assets/*');
+    return del('assets/*', '!assets/images');
 }
  
 // Task Build Styles
